@@ -11,7 +11,7 @@
     - Нажимаем клавишу Enter
   expected-result: |
     Пользователь должен получить на странице все торавы со значением iPhone в названии
-
+    ---
 - summary: |
    Поиск несуществующего товара 
   requirement: |
@@ -25,3 +25,42 @@
     - Нажимаем клавишу Enter
   expected-result: |
     Пользователь должен получить на странице все торавы со значением к*р7офеL в названии
+    ---
+- summary: |
+   
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+    
+    
+  expected-result: |
+    
+- summary: |
+   
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+    
+    
+  expected-result: |
+- summary: |
+   
+  requirement: |
+    
+  prerequisites: |
+    
+  test-data: |
+    
+  steps:
+    
+    
+  expected-result: |
+        
