@@ -14,7 +14,7 @@ test-cases:
 - summary: |
    Смена языка в каталоге товаров 
   status: pass
- - summary: |
+- summary: |
      Добавление нескольких товаров в корзину
   status: pass
 - summary: |
