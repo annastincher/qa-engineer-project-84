@@ -6,6 +6,9 @@ test-cases:
    Поиск несуществующего товара 
   status: pass
 - summary: |
+    Фильтр товара по цене 
+  status: fail
+- summary: |
     Фильтрация товаров по нескольким характеристикам одновременно (3)
   status: pass
 - summary: |
