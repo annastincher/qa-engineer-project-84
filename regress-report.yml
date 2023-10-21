@@ -40,12 +40,23 @@ bugreports:
   actual-result: |
     При нажатии на крестик, форма не закрывается
     Закрытие формы только через нажатие на кнопку "Close"
-- summary: |
-    Не работает смена zpsrf сайта
+ - summary: |
+    Ошибка 500 при оформлении заказа
   environment: |
-    Google Chrome Версия 114.0.5735.199 (Официальная сборка), (64 бит)
-    ОС Windows 10 Pro
+   Google Chrome 116.0.5845.179 (Official Build) (arm64) 
+   OS Linux
   steps-to-reproduce: |
+    1. Открыть DevTools
+    2. Нажать на вкладку "Network"
+    3. Выбрать любой товар, например, iPhone 9
+    4. Нажать на кнопку "Add to cart"
+    5. Нажать на кнопку "Cart" на панели сверху
+    6. Нажать на кнопку "Checkout"
+  expected-result: |
+    Заказ успешно оформлен
+  actual-result: |
+    Отображается ошибка 500
+
      1. Переключаем язык
   expected-result: |
     Пользователь может переключить языки в инернет магазине
