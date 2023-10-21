@@ -1,3 +1,4 @@
+bugreports:
 - summary: |
     Не работает закрытие формы "Checkout" нажатием на крестик
   environment: |
