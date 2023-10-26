@@ -1,28 +1,60 @@
 test-cases:
-  - summary: |
-      Поиск существующего товара
-    status: pass
-  - summary: |
-      Поиск несуществующего товара
-    status: pass
-  - summary: |
-      Фильтр товара по цене
-    status: fail
-  - summary: |
-      Фильтрация товаров по нескольким характеристикам одновременно (3)
-    status: pass
-  - summary: |
-      Смена языка в каталоге товаров
-    status: pass
-  - summary: |
-      Добавление нескольких товаров в корзину
-    status: pass
-  - summary: |
-      Проверка возможности переключения страниц
-    status: pass
-  - summary: |
-      Проверка корректного отображения товаров в "Корзине"
-    status: pass
+- summary: |
+    Фильтрация по ключевому слову
+  status: fail
+
+- summary: |
+    Фильтр товара по категории
+  status: pass
+
+- summary: |
+    Фильтр товара по производителю 
+  status: pass
+
+- summary: |
+    Фильтр товара по наличию
+  status: pass
+
+- summary: |
+    Фильтр товара по цене 
+  status: fail
+
+- summary: |
+    Фильтрация товаров по нескольким характеристикам одновременно
+  status:fail
+
+- summary: |
+    Проверка смены локализации сайта
+  status: fail
+
+- summary: |
+    Добавление товара в корзину
+  status: pass
+
+- summary: |
+    Просмотр содержимого корзины
+  status: pass
+
+- summary: |
+    Проверка оформления заказа
+  status: pass
+
+- summary: |
+    Проверка переключения страниц с помощью кнопок навигации в каталоге
+  status: pass
+
+- summary: |
+    Проверка открытия карточки товара
+  status: pass
+
+- summary: |
+    Проверка продолжения выбора товаров после добавления товара в корзину
+  status: pass
+
+- summary: |
+    Проверка удаления товара из корзины
+  status: pass
+  
 
 bugreports:
   - summary: |
