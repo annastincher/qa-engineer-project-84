@@ -28,6 +28,10 @@ test-cases:
   status: fail
 
 - summary: |
+     Проверка отображения флагов в меню выбора локали
+  status: fail
+
+- summary: |
     Добавление товара в корзину
   status: pass
 
